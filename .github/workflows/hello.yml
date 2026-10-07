@@ -11,3 +11,12 @@ jobs:
         run: date
       - name: Show Operating System
         run: uname -a
+      - name: Python version?
+        run: py --version
+      - name: Git version?
+        run: git --version
+      - name: Current directory?
+        run: pwd
+      - name: Files in this directory?
+        run: ls
+      
